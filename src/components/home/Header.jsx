@@ -16,8 +16,8 @@ const Header = () => {
         </ul>
         <h3 className='bg-[#FFC914] text-[22px]' style={{padding:'20px 20px 10px'}}><span className='mr-4 font-bold'>Latest news on NTDs:</span> Launch of the Mwele Malecela Mentorship Program for Women in Neglected Tropical Diseases</h3>
         <div className='flex justify-around mt-20 gap-4 text-white'>
-            <div className='w-[30%] flex flex-col items-center mt-12'>
-                <img src={img} alt="boy"/>
+            <div className='w-[30%] flex flex-col items-center mt-20'>
+                <img src={img} alt="boy" className='relative bottom-0'/>
             </div>
             <div className='w-[62%] flex flex-col items-center px-4'>
                 <h1 className='text-5xl text-center font-bold'>Accelerating elimination of NTDs - Towards 2030</h1>
@@ -35,7 +35,7 @@ const Header = () => {
                         <p><span className='font-bold'>million</span> people require treatment in Africa</p>
                     </div>
                 </div>
-                <div className='relative -bottom-20 bg-white text-black p-16 text-center rounded-md'>
+                <div className='relative -bottom-16 bg-white text-black p-16 text-center rounded-md'>
                     <p className='text-3xl'>The ESPEN Portal enables health ministries and stakeholders to share, and exchange subnational programme data, in support of the NTD control and elimination goals.</p>
                 </div>
             </div>
