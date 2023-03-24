@@ -9,14 +9,14 @@ import SearchSection from './SearchSection'
 
 const Home = () => {
   return (
-    <>
+    <div className='bg-gray-100'>
       <Nav/>
       <Header/>
       <MapSection/>
       <SearchSection/>
       <ResourceSection/>
       <Footer/>
-    </>
+    </div>
   )
 }
 

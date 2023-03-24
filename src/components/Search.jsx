@@ -2,7 +2,7 @@ import React from 'react'
 
 const Search = () => {
   return (
-    <form className="max-w-sm">
+    <form className="max-w-sm pl-2">
             <div className="relative">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
