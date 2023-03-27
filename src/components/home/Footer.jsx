@@ -14,7 +14,7 @@ const Footer = () => {
                 <input
                  type="text"
                  placeholder="email address"
-                 className="w-[100%] h-11 py-3 pl-4 pr-36 text-gray-500 border rounded-full outline-none bg-gray-50 focus:bg-white focus:border-indigo-600"
+                 className="w-[95%] h-11 py-3 pl-4 pr-36 text-gray-500 border rounded-full outline-none bg-gray-50 focus:bg-white focus:border-indigo-600"
              />
         </form>
       </div>
