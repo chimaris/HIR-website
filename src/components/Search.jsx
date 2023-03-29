@@ -6,7 +6,7 @@ const Search = () => {
             <div className="relative">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute top-0 bottom-0 w-4 h-4 my-auto text-gray-400 left-44 cursor-pointer"
+                    className="absolute top-0 bottom-0 w-4 h-4 my-auto text-gray-400 left-60 md:left-62 cursor-pointer"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -21,7 +21,7 @@ const Search = () => {
                 <input
                  type="text"
                  placeholder="Search"
-                 className="py-2 w-50 pl-4 pr-4 text-gray-500 border rounded-full outline-none bg-gray-50 focus:bg-white focus:border-indigo-600"
+                 className="py-2 w-50 pl-4 pr-12 w-[100%] text-gray-500 border rounded-full outline-none bg-gray-50 focus:bg-white focus:border-indigo-600"
              />
          </div>
      </form>
