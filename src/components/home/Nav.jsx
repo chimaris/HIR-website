@@ -8,7 +8,7 @@ import Search from '../Search';
 const Nav = () => {
   return (
     <div className='w-full'>
-        <div className='flex flex-col md:flex-row justify-between items-center w-[95%] m-auto '>
+        <div className='flex flex-col md:flex-row justify-between items-center w-[90%] m-auto '>
           {/* <img src={espenLogo} alt="espenLogo" width='30%' height='30%' /> */}
           <img src={logo} alt="logo" width='30%' height='30%' className='hidden md:block' />
           {/* <ul className='flex flex-row-reverse self-start w-[100%] mx-4 mt-4 gap-2'>
@@ -18,7 +18,7 @@ const Nav = () => {
               <li>Feedback</li>
           </ul> */}
           
-          <div className='flex'>
+          <div className='flex justify-around flex-col md:flex-row items-center gap-4 my-6'>
           <select className="p-2.5  text-gray-500 bg-white border rounded-full shadow-sm outline-none appearance-none focus:border-indigo-600">
                   <option>Select Language</option>
                   <option>English</option>
