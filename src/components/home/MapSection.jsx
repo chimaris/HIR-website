@@ -15,13 +15,13 @@ const MapSection = () => {
 					<div className="flex flex-col items-center justify-center bg-[#008DC9] hover:bg-[#FFC914] w-[130px] h-[130px] rounded-full">
 					<Worm />
                     </div>
-					<h4 className="text-black">Trachoma</h4>
+					<h4 className="text-black"> Ebola Virus</h4>
 				</div>
 				<div className="flex flex-col items-center justify-center text-center gap-2 md:w-[44%] lg:w-[23%] xl:w-[14%]">
 					<div className="flex flex-col items-center justify-center bg-[#008DC9] w-[130px] h-[130px] rounded-full" >
 					<img src={worm} alt="worm" width='50%' className='text-black' />
                     </div>
-					<h4 className="text-black">Correct Identity</h4>
+					<h4 className="text-black">Marburg</h4>
 					
 				</div>
 				<div className="flex flex-col items-center justify-center text-center gap-2 md:w-[44%] lg:w-[23%] xl:w-[14%]">
@@ -35,28 +35,28 @@ const MapSection = () => {
 					<div className="flex flex-col items-center justify-center bg-[#008DC9] w-[130px] h-[130px] rounded-full" >
 					<img src={worm} alt="worm" width='50%' className='text-black' />
                     </div>
-					<h4 className="text-black">Schistosomiasis</h4>
+					<h4 className="text-black">Sudan Virus</h4>
 					
 				</div>
                 <div className="flex flex-col items-center justify-center text-center gap-2 md:w-[44%] lg:w-[23%] xl:w-[14%]">
 					<div className="flex flex-col items-center justify-center bg-[#008DC9] w-[130px] h-[130px] rounded-full" >
 					<img src={worm} alt="worm" width='50%' className='text-black' />
                     </div>
-					<h4 className="text-black">Schistosomiasis</h4>
+					<h4 className="text-black">Cholera</h4>
 					
 				</div>
                 <div className="flex flex-col items-center justify-center text-center gap-2 md:w-[44%] lg:w-[23%] xl:w-[14%]">
 					<div className="flex flex-col items-center justify-center bg-[#008DC9] w-[130px] h-[130px] rounded-full" >
 					<img src={worm} alt="worm" width='50%' className='text-black' />
                     </div>
-					<h4 className="text-black">Schistosomiasis</h4>
+					<h4 className="text-black">Measles</h4>
 					
 				</div>
                 <div className="flex flex-col items-center justify-center text-center gap-2 md:w-[44%] lg:w-[23%] xl:w-[14%]">
 					<div className="flex flex-col items-center justify-center bg-[#008DC9] w-[130px] h-[130px] rounded-full" >
 					<img src={worm} alt="worm" width='50%' className='text-black' />
                     </div>
-					<h4 className="text-black">Schistosomiasis</h4>
+					<h4 className="text-black">Yellow Fever</h4>
 					
 				</div>
 			</div>

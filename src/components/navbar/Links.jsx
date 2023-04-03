@@ -14,10 +14,12 @@ export const links = [
       name: "Diseases",
       submenu: true,
       sublinks: [
-            { name: "Lymphatic Filariasis", link: "/" },
-            { name: "Oachocerciasis", link: "/" },
-            { name: "Loiasis", link: "/" },
-            { name: "Trachoma", link: "/" },
+            { name: "Ebola Virus", link: "/" },
+            { name: "Marburg", link: "/" },
+            { name: "Sudan Virus", link: "/" },
+            { name: "Cholera", link: "/" },
+            { name: "Measles", link: "/" },
+            { name: "Yellow Fever", link: "/" },
           ],
     },
     {

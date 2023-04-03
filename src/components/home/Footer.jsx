@@ -26,9 +26,12 @@ const Footer = () => {
                 </button>
                 <select className="p-2.5 w-[100%] h-11 text-gray-500 bg-white border rounded-full shadow-sm outline-none appearance-none focus:border-indigo-600">
                 <option>Select a disease</option>
-                <option>Lymphatic filariasis</option>
-                <option>Onchocerciasis</option>
-                <option>Loiasis</option>
+                <option>Ebola Virus</option>
+                <option>Marburg</option>
+                <option>Sudan Virus</option>
+                <option>Cholera</option>
+                <option>Measles</option>
+                <option>Yellow Fever</option>
             </select>
                 
         </div>
